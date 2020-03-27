@@ -45,6 +45,38 @@ def post_edit(request, pk):
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form': form})
 
-# first version
-# def post_list(request):
-#     return render(request, 'blog/post_list.html', {})
+
+def about_view(request):
+    my_context = {
+        "title": "abc this is about us",
+        "this_is_true": True,
+        "my_number": 123,
+        "my_list": [1313, 4231, 312, "Abc"],
+        "my_html": "<h1>Hello World</h1>"
+
+    }
+    return render(request, "blog/about.html", my_context)
+
+
+def stack_view(request):
+    my_context = {
+        "title": "abc this is about us",
+        "this_is_true": True,
+        "my_number": 123,
+        "my_list": [1313, 4231, 312, "Abc"],
+        "my_html": "<h1>Hello World</h1>"
+
+    }
+    return render(request, "blog/stack.html", my_context)
+
+
+def contact_view(request):
+    my_context = {
+        "title": "abc this is about us",
+        "this_is_true": True,
+        "my_number": 123,
+        "my_list": [1313, 4231, 312, "Abc"],
+        "my_html": "<h1>Hello World</h1>"
+
+    }
+    return render(request, "blog/contact.html", my_context)
