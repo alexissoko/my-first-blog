@@ -3,7 +3,7 @@
 
 
 {% block content %}
-<h1>About</h1>
+<h1>{{ page }}</h1>
 
 <h3>{{ title }}</h3>
 <p>This is a template</p>
@@ -11,11 +11,11 @@
 {{ my_html|safe }}
 
 <p>
-, {{ my_number }}
-{{ my_list }}
+{{ my_number }}
 </p>
 
 <ul>
+    'my_list' object in context obj: {{ my_list }}
     <li>Item 1</li>
     <li>Item 2</li>
 </ul>
