@@ -19,8 +19,8 @@ from blog.views import about_view, contact_view, stack_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('about/', about_view, name='about'),
-    path('contact/', contact_view, name='about'),
-    path('stack/', stack_view, name='stack'),
+    # path('about/', about_view, name='about'),
+    # path('contact/', contact_view, name='about'),
+    # path('stack/', stack_view, name='stack'),
     path('', include('blog.urls')),
 ]
