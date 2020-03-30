@@ -65,7 +65,7 @@ h1, h2, h3, h4 {
 }
 
 /* Style the links inside the navigation bar */
-.navbar h1, .navbar h1 a {
+.navbar li, .navbar li a {
   float: left;
   display: block;
   color: #C25100;
@@ -76,13 +76,13 @@ h1, h2, h3, h4 {
 }
 
 /* Change the color of links on hover */
-.navbar h1:hover, .navbar h1 a:hover {
+.navbar li:hover, .navbar li a:hover {
   background-color: #C25100;
   color: white;
 }
 
 /* Add a color to the active/current link */
-.navbar h1:active, .navbar h1 a:active {
+.navbar li:active, .navbar li a:active {
   background-color: #808080;
   color: white;
 }
