@@ -56,7 +56,7 @@ def about_view(request):
         "my_html": "<h1>+10 years of industry expericne on Web dev; QA automation web, android and IOS & Devops services for infra</h1>"
 
     }
-    return render(request, "blog/about.html", my_context)
+    return render(request, "about.html", my_context)
 
 
 def stack_view(request):
@@ -69,17 +69,14 @@ def stack_view(request):
         "my_html": "<h1>Java / Junit / Selenium / Postman / Testrail / CI+CD</h1>"
 
     }
-    return render(request, "blog/stack.html", my_context)
+    return render(request, "stack.html", my_context)
 
 
 def contact_view(request):
     my_context = {
         "page": "Contact",
         "title": "contact@tautologico.com",
-        "this_is_true": True,
-        "my_number": 123,
-        "my_list": [1313, 4231, 312, "Abc"],
         "my_html": "<h1>Phone : 6502858613</h1>"
 
     }
-    return render(request, "blog/contact.html", my_context)
+    return render(request, "contact.html", my_context)
