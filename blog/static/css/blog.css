@@ -56,7 +56,7 @@ h1, h2, h3, h4 {
 }
 
 /* Place the navbar at the bottom of the page, and make it stick */
-.navbar {
+.page-navbar {
   background-color: #C25100;
   overflow: hidden;
   position: fixed;
@@ -65,7 +65,7 @@ h1, h2, h3, h4 {
 }
 
 /* Style the links inside the navigation bar */
-.navbar a {
+.page-navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -76,13 +76,13 @@ h1, h2, h3, h4 {
 }
 
 /* Change the color of links on hover */
-.navbar a:hover {
+.page-navbar a:hover {
   background-color: #ddd;
   color: black;
 }
 
 /* Add a color to the active/current link */
-.navbar a.active {
+.page-navbar a.active {
   background-color: #808080;
   color: white;
 }
