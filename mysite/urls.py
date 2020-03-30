@@ -22,7 +22,7 @@ urlpatterns = [
     # path('about/', about_view, name='about'),
     # path('contact/', contact_view, name='about'),
     # path('stack/', stack_view, name='stack'),
-    path('', include('blog.urls')),
+    path('', include('blog.urls'), name='blog'),
     path('about/', about_view, name='about'),
     path('stack/', stack_view, name='stack'),
     path('contact/', contact_view, name='contact'),
