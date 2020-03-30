@@ -58,8 +58,6 @@ h1, h2, h3, h4 {
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
   background-color: #C25100
-  margin-top: 0;
-  padding: 20px 20px 20px 40px;
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -70,7 +68,7 @@ h1, h2, h3, h4 {
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #C25100;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -79,8 +77,8 @@ h1, h2, h3, h4 {
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #C25100;
+  color: white;
 }
 
 /* Add a color to the active/current link */
