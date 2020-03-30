@@ -56,8 +56,10 @@ h1, h2, h3, h4 {
 }
 
 /* Place the navbar at the bottom of the page, and make it stick */
-.page-navbar {
-  background-color: #C25100;
+.navbar {
+  background-color: #C25100
+  margin-top: 0;
+  padding: 20px 20px 20px 40px;
   overflow: hidden;
   position: fixed;
   bottom: 0;
