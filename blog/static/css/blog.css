@@ -65,7 +65,7 @@ h1, h2, h3, h4 {
 }
 
 /* Style the links inside the navigation bar */
-.page-navbar a {
+.navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -76,13 +76,13 @@ h1, h2, h3, h4 {
 }
 
 /* Change the color of links on hover */
-.page-navbar a:hover {
+.navbar a:hover {
   background-color: #ddd;
   color: black;
 }
 
 /* Add a color to the active/current link */
-.page-navbar a.active {
+.navbar a.active {
   background-color: #808080;
   color: white;
 }
