@@ -56,7 +56,7 @@ def about_view(request):
         "my_html": "<h1>+10 years of industry expericne on Web dev; QA automation web, android and IOS & Devops services for infra</h1>"
 
     }
-    return render(request, "about.html", my_context)
+    return render(request, "nav_bar.html", my_context)
 
 
 def stack_view(request):
@@ -69,7 +69,7 @@ def stack_view(request):
         "my_html": "<h1>Java / Junit / Selenium / Postman / Testrail / CI+CD</h1>"
 
     }
-    return render(request, "stack.html", my_context)
+    return render(request, "nav_bar.html", my_context)
 
 
 def contact_view(request):
@@ -79,4 +79,4 @@ def contact_view(request):
         "my_html": "<h1>Phone : 6502858613</h1>"
 
     }
-    return render(request, "contact.html", my_context)
+    return render(request, "nav_bar.html", my_context)
