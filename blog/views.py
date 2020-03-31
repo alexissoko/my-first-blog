@@ -62,7 +62,19 @@ def about_view(request):
 def stack_view(request):
     my_context = {
         "page": "Stack",
-        "title": "Services & Stack",
+        "title": "Tech Stack",
+        "this_is_true": True,
+        "my_number": "Years of experience: 10",
+        "my_list": [1313, 4231, 312, "Abc"],
+        "my_html": "<h1>Java / Junit / Selenium / Postman / Testrail / CI+CD</h1>"
+
+    }
+    return render(request, "nav_bar.html", my_context)
+
+def services_view(request):
+    my_context = {
+        "page": "Services",
+        "title": "Services",
         "this_is_true": True,
         "my_number": "Years of experience: 10",
         "my_list": [1313, 4231, 312, "Abc"],
