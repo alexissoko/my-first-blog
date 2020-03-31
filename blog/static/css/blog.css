@@ -111,9 +111,16 @@ li a:hover {
   background-color: #111;
 }
 
-frame {
-  border: 10px dotted black;
-  padding:35px;
-  background: yellow;
-  background-clip: content-box;
+.nav {
+  background-color: yellow;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
 }
