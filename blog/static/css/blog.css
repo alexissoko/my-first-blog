@@ -110,3 +110,10 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+frame {
+  border: 10px dotted black;
+  padding:35px;
+  background: yellow;
+  background-clip: content-box;
+}
