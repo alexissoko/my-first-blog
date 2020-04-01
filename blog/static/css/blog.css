@@ -42,15 +42,6 @@ h1, h2, h3, h4 {
     margin-right: 20px;
 }
 
-.post {
-    margin-bottom: 70px;
-    background: url('{{ STATIC_URL }}my_app/example.jpg')
-}
-
-.post h2 a, .post h2 a:visited {
-    color: #000000;
-}
-
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
   background-color: #C25100
@@ -122,4 +113,14 @@ li a:hover {
   display: inline-block;
   font-size: 20px;
   padding: 20px;
+}
+
+
+.post {
+    margin-bottom: 70px;
+    background: url('{{ STATIC_URL }}my_app/example.jpg')
+}
+
+.post h2 a, .post h2 a:visited {
+    color: #000000;
 }
