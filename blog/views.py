@@ -80,3 +80,13 @@ def contact_view(request):
 
     }
     return render(request, "nav_bar.html", my_context)
+
+
+def careers_view(request):
+    my_context = {
+        "page": "Careers",
+        "title": "Dev ops engineer",
+        "my_html": "<h1>3 Years experience with Bash scriptting and TCP/IP</h1>"
+
+    }
+    return render(request, "nav_bar.html", my_context)
