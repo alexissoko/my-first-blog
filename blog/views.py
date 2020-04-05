@@ -49,9 +49,9 @@ def post_edit(request, pk):
 def about_view(request):
     my_context = {
         "page": "About",
-        "title": "Family of knowledge hungry nerds",
+        "title": "Tautologico came up to be a sa gruop of Family and fiends with common professional interest with a keen for innovation",
         "this_is_true": True,
-        "my_number": "Our staff is marked mostly by strong proffesional ethics and a sophisticated engineer heuristics honed over a decade-plus years industry top companies experience",
+        "my_number": "Our staff is marked mostly by strong proffesional ethics and a sophisticated software engineering heuristics honed over a decade-plus years top industry experience",
         "my_list": [1313, 4231, 312, "Abc"],
         "my_html": "<h1>Hard working, capable and hungry engineers</h1>"
 
