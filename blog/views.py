@@ -75,7 +75,7 @@ def stack_view(request):
 def contact_view(request):
     my_context = {
         "page": "Contact",
-        "title": "contact@tautologico.com",
+        "title": "tautologycompany@gmail.com",
         "my_html": "<h1>Phone : 6502858613</h1>"
 
     }
