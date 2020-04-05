@@ -51,9 +51,9 @@ def about_view(request):
         "page": "About",
         "title": "Family of knowledge hungry nerds",
         "this_is_true": True,
-        "my_number": "A family of passionate hardworking devs and automation engineers",
+        "my_number": "Our staff is marked mostly by strong proffesional ethics and a sophisticated engineer heuristics honed over a decade-plus years industry top companies experience",
         "my_list": [1313, 4231, 312, "Abc"],
-        "my_html": "<h1>+10 years of industry expericne on Web dev; QA automation web, android and IOS & Devops services for infra</h1>"
+        "my_html": "<h1>Hard working, capable and hungry engineers</h1>"
 
     }
     return render(request, "nav_bar.html", my_context)
