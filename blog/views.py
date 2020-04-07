@@ -5,15 +5,15 @@ from django.shortcuts import render, get_object_or_404
 from .forms import PostForm
 
 
-def services_view(request):
+def post_list(request):
     posts = Post.objects.all()
     #posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    return render(request, 'blog/services.html', {'posts': posts})
+    return render(request, 'blog/post_list.html', {'posts': posts})
 
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
-    return render(request, 'blog/services.html', {'post': post})
+    return render(request, 'blog/post_detail.html', {'post': post})
 
 
 def post_new(request):
@@ -62,7 +62,7 @@ def about_view(request):
 def home_view(request):
     my_context = {
         "page": "Pragmatic scalable teams",
-        "title": "easy synch up with inhouse departments",
+        "title": "easy synch up with inhouse department",
         "this_is_true": True,
         "my_number": "Years of experience: 10",
         "my_list": [1313, 4231, 312, "Abc"],
