@@ -59,10 +59,10 @@ def about_view(request):
     return render(request, "nav_bar.html", my_context)
 
 
-def stack_view(request):
+def home_view(request):
     my_context = {
-        "page": "Stack",
-        "title": "Services & Stack",
+        "page": "Pragmatic scalable teams",
+        "title": "easy synch up with inhouse departments",
         "this_is_true": True,
         "my_number": "Years of experience: 10",
         "my_list": [1313, 4231, 312, "Abc"],
@@ -75,7 +75,7 @@ def stack_view(request):
 def contact_view(request):
     my_context = {
         "page": "Contact",
-        "title": "tautologycompany@gmail.com",
+        "title": "contact@tautologico.com",
         "my_html": "<h1>Phone : 6502858613</h1>"
 
     }
