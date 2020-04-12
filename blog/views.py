@@ -49,7 +49,7 @@ def post_edit(request, pk):
 def about_view(request):
     my_context = {
         "page": "About",
-        "title": "Tautologico came up to be a sa gruop of Family and fiends with common professional interest with a keen for innovation",
+        "title": "Tautologico came up to be with family and fiends with common professional interest with a keen for innovation",
         "this_is_true": True,
         "my_number": "Our staff is marked mostly by strong proffesional ethics and a sophisticated software engineering heuristics honed over a decade-plus years top industry experience",
         "my_list": [1313, 4231, 312, "Abc"],
@@ -66,7 +66,7 @@ def home_view(request):
         "this_is_true": True,
         "my_number": "Years of experience: 10",
         "my_list": [1313, 4231, 312, "Abc"],
-        "my_html": "<h1>Java / Junit / Selenium / Postman / Testrail / CI+CD</h1>"
+        "my_html": "Web devs, SDET's and Devops Agile teams"
 
     }
     return render(request, "nav_bar.html", my_context)
