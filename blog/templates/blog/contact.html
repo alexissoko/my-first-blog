@@ -1,0 +1,14 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="post">
+        <h1>Contact</h1>
+        <form role="form" action="" method="post">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <button type="submit">Submit</button>
+        </form>
+    </div>
+{% endblock %}
