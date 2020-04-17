@@ -3,19 +3,31 @@
 
 
 <html>
-<header>
-    <head>
-        <title>Tautologico</title>
-        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="{% static '/css/blog.css' %}">
-    </head>
+    <header>
+        <head>
+            <title>Tautologico</title>
+            <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+            <link rel="stylesheet" href="{% static '/css/blog.css' %}">
+        </head>
+    </header>
     <body>
-        <div class="page-header">
+        <div class="top-top">
 
             <h1><a href="/">Tautologico: Web, QA & Devops services</a></h1>
         </div>
+        <div class="topnav">
+
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'stack' %}">Stack</a>
+            <a href="{% url 'about' %}">About</a>
+            <div class="topnav-right">
+              <a href="{% url 'contact' %}">Contact</a>
+            </div>
+
+        </div>
+
         <div class="content container">
             <div class="row">
                 <div class="col-md-8">
@@ -25,15 +37,8 @@
             </div>
         </div>
     </body>
-</header>
 
 <footer>
-  <ul>
-    <li><a href = "/" class="active">Home</a></li>
-    <li><a href="{% url 'about' %}">About</a></li>
-    <li><a href="{% url 'stack' %}">Stack</a></li>
-    <li><a href="{% url 'contact' %}">Contact</a></li>
-  </ul>
 </footer>
 
 
